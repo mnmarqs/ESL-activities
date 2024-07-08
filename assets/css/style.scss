@@ -27,12 +27,17 @@ h1
   background: #dddddd;
 }
 
+#linkslaterais
+{
+  margin-top: 10px;
+}
+
 #linkslaterais a:link, a:visited
 {
   display: block;
   font-weight: bold;
   background: #c21807;
-  color: #222222;
+  color: #ffffff;
   text-decoration: none;
   padding: 5px;
   margin: 3px 0px;
@@ -51,39 +56,16 @@ h1
   transition: 0.5s;
 }
 
-#cabecalho p
+#conteudo
 {
-  font-size: 20px;
-  font: #444444;
-  text-align: center;
+  position: absolute;
+  width: 70%;
+  margin-top: 10%;
 }
 
-#navegacao
+#conteudo p
 {
-  text-align: center;
-}
-
-#navegacao table
-{
-  font-size: 25px;
-}
-
-#navegacao a:link
-{
-  background: #c21807;
-  color: #cccccc;
-  font-weight: bold;
-}
-
-#navegacao a:visited
-{
-  background: #c21807;
-  color: #cccccc;
-  font-weight: bold;
-}
-
-#navegacao a:hover
-{
-  background: #000000;
-  color: #c21807;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
 }
