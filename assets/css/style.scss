@@ -61,22 +61,22 @@ h1
   padding: 5px 15px;
 }
 
-.menusuperior a.link
+.menusuperior a:link
 {
   background: #c21807;
   color: #cccccc;
   font-weight: bold;
 }
 
-.menusuperior a.hover
+.menusuperior a:visited
+{
+  background: #c21807;
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.menusuperior a:hover
 {
   background: #000000;
   color: #c21807;
-}
-
-.menusuperior a.visited
-{
-  background: #c21807;
-  color: #cccccc;
-  font-weight: bold;
 }
