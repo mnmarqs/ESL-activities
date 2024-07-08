@@ -15,19 +15,16 @@
   </head>
 
   <body>
-    <div id="cabecalho">
+    <div id="lateral">
       <h1>{{ site.title | default: site.github.repository_name }}</a></h1>
       <p>{{ site.description | default: site.github.project_tagline }}</p>
-    </div>
 
-    <div id="navegacao">
-      <table align="center">
-        <tr>
-          <td><a href="#" class="menusuperior">Início</a></td>
-          <td><a href="#" class="menusuperior">Currículo</a></td>
-          <td><a href="#" class="menusuperior">Apresentações</a></td>
-        </tr>
-      </table>
+      <div id="linkslaterais">
+        <a href="#">Início</a>
+        <a href="#">Currículo</a>
+        <a href="#">Apresentações</a>
+        <a href="#">Aulas</a>
+      </div>
     </div>
   </body>
 </html>
