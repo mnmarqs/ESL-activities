@@ -17,25 +17,36 @@ h1
   font-size: 36px;
 }
 
-#cabecalho a.link
+#lateral
 {
-  font: #c21807;
-  font-weight: bold;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  padding-top: 10%;
   text-align: center;
+  background: #dddddd;
 }
 
-#cabecalho a.visited
+#linkslaterais a:link, a:visited
 {
-  font: #c21807;
+  display: block;
   font-weight: bold;
-  text-align: center;
+  background: #c21807;
+  color: #222222;
+  text-decoration: none;
+  padding: 5px;
+  transition: 0.5s;
 }
 
-#cabecalho a.hover
+#linkslaterais a:hover, a:active
 {
-  font: #c21807;
+  display: block;
   font-weight: bold;
-  text-align: center;
+  background: #222222;
+  color: #c21807;
+  text-decoration: underline;
+  padding: 5px;
+  transition: 0.5s;
 }
 
 #cabecalho p
@@ -55,27 +66,21 @@ h1
   font-size: 25px;
 }
 
-#navegacao td
-{
-  text-align: center;
-  padding: 5px 15px;
-}
-
-.menusuperior a:link
+#navegacao a:link
 {
   background: #c21807;
   color: #cccccc;
   font-weight: bold;
 }
 
-.menusuperior a:visited
+#navegacao a:visited
 {
   background: #c21807;
   color: #cccccc;
   font-weight: bold;
 }
 
-.menusuperior a:hover
+#navegacao a:hover
 {
   background: #000000;
   color: #c21807;
