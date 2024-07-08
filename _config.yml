@@ -1,2 +1,9 @@
-name: My Site
-theme: minima
+title: Marina
+name: Marina
+author: Marina
+description: Doutoranda em Linguística da Universidade Federal de São Carlos (UFSCar)
+
+footer-links:
+  email: mnmarques94@gmail.com
+  github: mnmarqs
+  lattes: 6111738798525760
