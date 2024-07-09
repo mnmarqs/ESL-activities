@@ -32,7 +32,7 @@ body
   margin-top: 10px;
 }
 
-#linkslaterais a:link, a:visited
+#linkslaterais a:link
 {
   display: block;
   font-weight: bold;
@@ -42,6 +42,11 @@ body
   padding: 5px;
   margin: 3px 0px;
   transition: 0.5s;
+}
+
+#linkslaterais a:visited
+{
+  color: #ffffff;
 }
 
 #linkslaterais a:hover, a:active
@@ -61,7 +66,7 @@ body
   margin-left: 20%;
   position: absolute;
   width: 70%;
-  margin-top: 10%;
+  margin-top: 2%;
   padding: 0 15%;
 }
 
