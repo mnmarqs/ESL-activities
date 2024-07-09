@@ -100,24 +100,30 @@ h1
   color: #c21807;
   font-weight: bold;
   text-align: justify;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #curriculo ul
 {
   list-style-type: square;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
+  text-align: justify;
 }
 
 #curriculo a:link, a:visited
 {
-  font-size: 18px;
+  font-size: 16px;
   color: #c21807;
 }
 
 #curriculo a:hover, a:active
 {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
+}
+
+#curriculo hr
+{
+  color: #000000;
 }
